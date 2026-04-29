@@ -60,11 +60,20 @@ sql-injection-demo/
 - **Kata Sandi:** `admin123`
 - **Hasil:** ✅ Login BERHASIL — sistem berjalan normal
 
+<img width="592" height="633" alt="Screenshot 2026-04-24 100915" src="https://github.com/user-attachments/assets/e20d8858-7417-4e56-9dcb-03575c28bb18" />
+
+
 ### Percobaan 2 — Serangan SQL Injection
 - **Username:** `admin' OR '1'='1' --`
 - **Kata Sandi:** `apasaja`
 - **Hasil di login.php:** ✅ Login BERHASIL — sistem **BERHASIL DIBOBOL**
+
+<img width="651" height="628" alt="Screenshot 2026-04-24 100840" src="https://github.com/user-attachments/assets/482ca478-9152-40dd-8424-a10703aa4c82" />
+
 - **Hasil di login_aman.php:** ❌ Login GAGAL — serangan **BERHASIL DICEGAH**
+
+<img width="609" height="628" alt="Screenshot 2026-04-24 101241" src="https://github.com/user-attachments/assets/723a6b00-15af-4508-958b-ac369ecadcea" />
+
 
 ---
 
